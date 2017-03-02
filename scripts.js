@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
   var withButtonClass = document.getElementsByClassName('button');
 
   for (var a = 0; a < withButtonClass.length; a++) {
-    
     console.log(withButtonClass[a].innerText);
   }
 })
